@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:id="@+id/couponview"
+        android:layout_width="340dp"
+        android:layout_height="wrap_content"
+        android:src="@drawable/coupon"
+        app:layout_constraintBottom_toTopOf="@+id/submit_but"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.127" />
+
+    <Button
+        android:id="@+id/submit_but"
+        android:layout_width="205dp"
+        android:layout_height="41dp"
+        android:layout_marginBottom="104dp"
+        android:text="Secure"
+        android:onClick="Secure"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/select_begin_time01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="picktime"
+        android:text="Begin time"
+        android:textSize="30dp"
+        app:layout_constraintBottom_toTopOf="@+id/submit_but"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.085"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/couponview"
+        app:layout_constraintVertical_bias="0.187" />
+
+    <Button
+        android:id="@+id/select_begin_time02"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="picktime01"
+        android:text="End time"
+        android:textSize="30dp"
+        app:layout_constraintBottom_toTopOf="@+id/submit_but"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.072"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/couponview"
+        app:layout_constraintVertical_bias="0.539" />
+
+    <TextView
+        android:id="@+id/time_layout"
+        android:layout_width="148dp"
+        android:layout_height="57dp"
+        android:layout_marginTop="472dp"
+        android:text="     "
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.06"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

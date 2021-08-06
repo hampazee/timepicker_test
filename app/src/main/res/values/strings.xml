@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">menu</string>
+    <string-array name="animal">
+        <item>dog</item>
+        <item>cat</item>
+        <item>pony</item>
+        <item>duck</item>
+        <item>bird</item>
+        <item>goose</item>
+        <item>deer</item>
+        <item>mouse</item>
+    </string-array>
+</resources>
